@@ -1,0 +1,31 @@
+Authors: Cadene Reid
+Date Created: July 15, 2025
+Course: ITT103
+GitHub Public URL to Code: https://github.com/Creid-dev/Golden-Age-Hospital-/blob/main/Hospital%20Management%20System  
+
+Golden Age Hospital Management System - README
+
+1. Purpose of the Program
+This Python based command line program simulates a simple hospital management system. 
+It allows users to:
+- Register patients and doctors
+- Book and cancel appointments
+- View scheduled appointments
+- Generate billing receipts for consultations
+It is designed to demonstrate object-oriented programming principles and exception handling.
+
+2. How to Run the Program
+To run the program you need to ensure that Python 3.x is installed on your computer, then open the terminal or command prompt,navigate to the folder where the '.py' file is saved and finially run the file using: 'python filename.py'
+
+3. Required Modifications
+Save patient and doctor data to a file or database so it doesn't disappear after closing the program
+Add login features for patients and doctors
+Include more billing options like insurance or service types
+Create a graphical interface (GUI) for easier use
+
+4. Assumptions & Limitations
+Doctor availability must be entered manually (as a list of time slots).
+The system allows only one appointment per doctor at any specific time.
+Appointment details and other data are not saved once the program closes.
+The program is text-based and doesn't include a graphical user interface.
+Some basic input validation and error messages are in place, but there’s room for stronger error checking.
